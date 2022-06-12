@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="50dp"
+    android:layout_margin="12dp"
+    android:orientation="vertical">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+
+<!--        <LinearLayout-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/start_time"-->
+<!--                android:layout_weight="3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="点我设置开始时间"-->
+<!--                android:textColor="#333333"-->
+<!--                android:textSize="18sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="~"-->
+<!--                android:textColor="#333333"-->
+<!--                android:textSize="28sp" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/end_time"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_weight="3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="点我设置结束时间"-->
+<!--                android:textColor="#333333"-->
+<!--                android:textSize="18sp" />-->
+<!--        </LinearLayout>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/bt_search"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="查询时间段内睡眠列表信息"-->
+<!--            android:textColor="#333333"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="#7C7C7C" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/empty_tv"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="暂无睡眠信息。。。等你来创建"-->
+<!--            android:textColor="#333333"-->
+<!--            android:textSize="18sp"-->
+<!--            android:visibility="gone"-->
+<!--            tools:visibility="visible" />-->
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/recycle_view"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginTop="10dp" />-->
+<!--    </LinearLayout>-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iv_add_group"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom|right"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginBottom="80dp"-->
+<!--        android:src="@mipmap/img" />-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iv_add_sleep_alarm"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom|right"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginBottom="200dp"-->
+<!--        android:src="@mipmap/img_11" />-->
+</FrameLayout>
